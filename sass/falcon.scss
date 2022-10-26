@@ -1,0 +1,180 @@
+.container00{
+    &.container05{
+        background-image: url(../img/01.jpg);
+    }
+    &.container06{
+        background-image: url(../img/02.jpg);
+    }
+    &.container07{
+        background-image: url(../img/08.jpg);
+    }
+    //CARROSSEL
+    &.carrossel01{
+        background-image: url(../img/03.jpg);
+    }
+    &.carrossel02{
+        background-image: url(../img/04.jpg);
+    }
+    &.carrossel03{
+        background-image: url(../img/05.jpg);
+    }
+    &.carrossel04{
+        background-image: url(../img/06.jpg);
+    }
+    &.carrossel05{
+        background-image: url(../img/07.jpg);
+    }
+}
+
+.textFalcon{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .titleFalcon05{
+        font-size: 90px;
+        font-weight: 500;
+    }
+    .subtitleFalcon05{
+        font-size: 1.25rem;
+    }
+}
+
+.numbers{
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .titleNumber{
+        font-size: 90px;
+    }
+    .subtitleNumber{
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.container06{
+    .title06{
+        font-size: 22px;
+        width: 640px;
+        line-height: 50px;
+        margin-left: 5%;
+    }
+}
+
+.containerFalcon1{
+    .title06{
+        display: grid;
+        height: 90vh;
+        align-items: center;
+        justify-content: left;
+    }
+}
+
+#overViewPosition {
+    width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
+  }
+  
+
+#carrosselSlide{
+    width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
+} 
+
+.carrosselSlide02{
+    img{
+        height: 100vh;
+    }
+}
+
+.carousselText{
+    background-color: black;
+}
+
+@media (max-width: 1024px) {
+    #overViewPosition {
+        display: block;
+        width: 500px;
+        margin-left: 13%;
+        padding-top: 20%;
+      }
+}
+
+@media (max-width: 768px){
+    .numbers{
+        .titleNumber{
+            font-size: 80px;
+        }
+        .subtitleNumber{
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+    #carrosselSlide{
+        padding-top: 35%;
+    } 
+    .title06{
+        width: auto;
+    }
+}
+
+@media (max-width: 680px){
+    .container06{
+        .title06{
+            font-size: 18px;
+            width:500px;
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .numbers{
+        display: none;
+    }
+    .containerFalcon1{
+        .title06{
+            font-size: 20px;
+            width: auto;
+        }
+    }
+    #carrosselSlide{
+        width: auto;
+        margin-left: auto;
+    }
+    #overViewPosition {
+        display: flex;
+        height: 90vh;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        margin-left: auto;
+      }
+      .titleOverView {
+        font-size: 26px;
+        font-weight: bold;
+      }
+      .subTitleOvewView {
+        font-size: 20px;
+        font-weight: 300;
+      }
+}
+
+@media(max-width: 375px){
+    .textFalcon{
+        .titleFalcon05{
+            font-size: 50px;
+            font-weight: 500;
+        }
+    }
+    .title06{
+        font-size: 18px;
+        line-height: auto;
+    }
+}

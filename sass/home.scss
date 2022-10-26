@@ -1,0 +1,51 @@
+.container00{
+    &.container01{
+        background-image: url(../img/01\ \(1\).jpg);
+    }
+    &.container02{
+        background-image: url(../img/03\ \(1\).jpg);
+    }
+    &.container03{
+        background-image: url(../img/02.gif);
+    }
+    &.container04{
+        background-image: url(../img/04\ \(1\).jpg);
+    }
+}
+
+.titlePadding{
+    padding-top: 200px;
+}
+
+.titleh1{
+    width: 550px;
+    margin-bottom: -25px;
+}
+
+.titleh5{
+    width: 650px;
+}
+
+@media (max-width: 750px){
+    .titlePadding{
+        padding: 120px;
+    }
+
+    .titleh1,
+    .titleh5{
+        width: auto;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 380px){
+    .titlePadding{
+        padding: 120px;
+    }
+
+    .titleh1,
+    .titleh5{
+        width: auto;
+        font-size: 30px;
+    }
+}
