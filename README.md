@@ -1,3 +1,1 @@
 # onebitX
-# projeto-oneBitX
-# onebitX
