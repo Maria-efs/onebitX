@@ -113,20 +113,20 @@ header #navItem:hover {
 
 @media (max-width: 750px) {
   .titlePadding {
-    padding: 120px;
+    padding: 80px;
   }
   .titleh1,
-.titleh5 {
+  .titleh5 {
     width: auto;
     font-size: 40px;
   }
 }
 @media (max-width: 380px) {
   .titlePadding {
-    padding: 120px;
+    padding: 20px;
   }
   .titleh1,
-.titleh5 {
+  .titleh5 {
     width: auto;
     font-size: 30px;
   }
@@ -369,7 +369,7 @@ header #navItem:hover {
     width: 150px;
   }
   .containerRightContent,
-.containerLeftContent {
+  .containerLeftContent {
     margin-left: 15%;
   }
   .descricaoHuman .textLongoHuman {
@@ -390,7 +390,7 @@ header #navItem:hover {
     width: 150px;
   }
   .containerRightContent,
-.containerLeftContent {
+  .containerLeftContent {
     margin-left: 5%;
   }
   .titleHuman {
@@ -407,7 +407,7 @@ header #navItem:hover {
 }
 @media (max-width: 373px) {
   .containerRightContent,
-.containerLeftContent {
+  .containerLeftContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -420,12 +420,12 @@ header #navItem:hover {
     width: auto;
   }
   .titleHuman {
-    font-size: 30px;
-    width: 300px;
+    font-size: 25px;
+    width: 250px;
   }
   .subTitleHuman {
     font-size: 15px;
-    width: 300px;
+    width: 250px;
   }
   button {
     width: 200px;
